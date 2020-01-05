@@ -1,0 +1,83 @@
+<ion-header>
+
+ <!-- <ion-toolbar>
+    <ion-button menuToggle icon-only>
+      <ion-icon name="Menu"></ion-icon>
+      <ion-title>Elite Schedule</ion-title>
+    </ion-button>
+  </ion-toolbar>-->
+
+
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      My Teams
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+    <ion-content>
+        <ion-card>
+            <ion-card-header>
+                Recently Selected
+            </ion-card-header>
+
+            <ion-list>
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <img src="../../assets/icon/dhoni.png">
+                    </ion-avatar>
+                    <ion-label>
+                        <h2>CSK</h2>
+                        <h3>One of the best teams of IPL</h3>
+                    </ion-label>
+                </ion-item>
+
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <img src="../../assets/icon/rohit.png">
+                    </ion-avatar>
+                    <ion-label>
+                        <h2>MI</h2>
+                        <h3>Rising Champions</h3>
+                    </ion-label>
+                </ion-item>
+
+            </ion-list>
+
+            <ion-card-content>
+                <ion-button   color="primary" expand="block" (click)="goToTournaments()">
+
+                 <!--   <ion-icon class="ion-float-right" slot="start" name="search" ></ion-icon>-->
+                    Find a tournament
+                </ion-button>
+            </ion-card-content>
+        </ion-card>
+
+
+
+
+
+    </ion-content>
+
+<!-- tabs needs to be implemented again -->
+
+<!--<app-tabs-page></app-tabs-page>-->
+
+
+<!--
+<ion-app>
+    <ion-content>
+        <div class="ion-activatable">
+            A plain div with a bounded ripple effect
+            <ion-ripple-effect></ion-ripple-effect>
+        </div>
+
+
+    </ion-content>
+</ion-app>
+-->
