@@ -15,7 +15,7 @@ import {AgmDirectionModule} from 'agm-direction';
 
 @NgModule({
   imports: [
-      AgmCoreModule.forRoot({apiKey: 'AIzaSyDZGu56z5KtCfeh32Zpt8DYi7wyqYipaNQ'}),
+      AgmCoreModule.forRoot({apiKey: 'api key from google is required here for Google Maps'}),
       AgmDirectionModule,
     CommonModule,
     FormsModule,
